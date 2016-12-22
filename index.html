@@ -5,8 +5,8 @@
 		<style>
 
 			canvas {
-				width: 400px;
-				height: 400px;
+				width: 100vw;
+				height: 100vw;
 			}
 
 		</style>
@@ -14,6 +14,10 @@
 
 	<body>
 
+		<h1>PeanoFilter(<span id="peano-display">0</span>)</h1>
+		<b>0</b>
+			<input type="range" id="peano-n" min="0" max="5" value="0">
+		<b>5</b>
 		<canvas id="canvas" width="1000px" height="1000px"></canvas>
 
 		<script type="text/javascript" src="lib/canvas-wrapper.js"></script>
